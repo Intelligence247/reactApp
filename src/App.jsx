@@ -113,15 +113,159 @@ function App() {
       </div>
 
 
+      <div className="meet-team">
+        <p>Meet the team</p>
+        <p>Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background</p>
+      </div>
+
+      <div className="avatar-images">
+        <div className="image-1">
+          <img src="./media/Avatar image1.png" alt="" />
+          <p>Header</p>
+          <p>Caption</p>
+        </div>
+
+        <div className="image-1">
+          <img src="./media/Avatar image2.png" alt="" />
+          <p>Header</p>
+          <p>Caption</p>
+        </div>
+
+        <div className="image-1">
+          <img src="./media/Avatar image3.png" alt="" />
+          <p>Header</p>
+          <p>Caption</p>
+        </div>
+
+        <div className="image-1">
+          <img src="./media/Avatar image4.png" alt="" />
+          <p>Header</p>
+          <p>Caption</p>
+        </div>
+
+        <div className="image-1">
+          <img src="./media/Avatar image5.png" alt="" />
+          <p>Header</p>
+          <p>Caption</p>
+        </div>
+
+        <div className="image-1">
+          <img src="./media/Avatar image6.png" alt="" />
+          <p>Header</p>
+          <p>Caption</p>
+        </div>
+
+        <div className="image-1">
+          <img src="./media/Avatar image7.png" alt="" />
+          <p>Header</p>
+          <p>Caption</p>
+        </div>
+
+        <div className="image-1">
+          <img src="./media/Avatar image8.png" alt="" />
+          <p>Header</p>
+          <p>Caption</p>
+        </div>
+
+        <div className="image-1">
+          <img src="./media/Avatar image9.png" alt="" />
+          <p>Header</p>
+          <p>Caption</p>
+        </div>
+
+        <div className="image-1">
+          <img src="./media/Avatar image10.png" alt="" />
+          <p>Header</p>
+          <p>Caption</p>
+        </div>
+
+      </div>
+
+      <div className="phone-interface">
+        <div className="phone-interfaceimg">
+          <img src="./media/phone-interface.png" alt="" />
+        </div>
+        <div className="contacts">
+          <div className="contactheader">
+            <h1>Contact us</h1>
+            <p>Our lovely team would love to hear from you</p></div>
+
+          <div className="inputs">
+            <div className="input1">
+              <label htmlFor="Firstname">
+                First name
+              </label>
+              <input type="text" placeholder='First name' />
+            </div>
+
+            <div className="input1">
+              <label htmlFor="Last name">
+                Last name
+              </label>
+              <input type="text" placeholder='Last name' />
+            </div>
+
+            <div className="input1">
+              <label htmlFor="Email">
+                Email
+              </label>
+              <input type="text" placeholder='Email' />
+            </div>
+
+            <div className="input1">
+              <label htmlFor="Phone number">
+                Phone number
+              </label>
+              <input type="text" placeholder='Phone number' />
+            </div>
+
+          </div>
+          <div className="input2">
+            <label htmlFor="Issues">
+              Issues
+            </label>
+            <input type="text" placeholder='Issues' />
+          </div>
+
+          <button className='submitbutton'>
+            <p>Submit</p>
+            <img src="./media/submitvector.png" alt="" />
+          </button>
+
+          <div className="logos">
+            <p>Ai</p>
+            <img src="./media/googlevector.png" alt="" />
+            <img src="./media/playvector.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div className="reason">
+        <div className="why">
+          <p>Logo</p>
+          <p>Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background</p>
+        </div>
+
+        <div className="subscirbe">
+          <div className="subscribebuttons">
+            <p>Contact us</p>
+            <p>Button 1</p>
+            <p>Button 2</p>
+            <p>Button 3</p>
+          </div>
+
+          <div className="subscribenow">
+            <p>Suscribe now</p>
+            <p>Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design.</p>
+            <div className="lastbutton">
+              <input type="text" placeholder='Input something' />
+              <button>Button</button>
+            </div>
+          </div>
+        </div>
 
 
-
-
-
-
-
-
-
+      </div>
 
 
 
