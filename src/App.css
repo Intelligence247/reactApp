@@ -355,3 +355,19 @@ input {
     border-radius: 8px;
     margin-left: 2rem;
 }
+
+/* Creating react app using vite */
+/*  */
+/* npm creaate vite
+Project name
+
+choosing language type
+cd note app
+
+instead of npm start 
+Now it is npm run dev
+ */
+
+
+/* https://vitejs.dev/guide/
+https://create-react-app.dev/docs/getting-started/ */

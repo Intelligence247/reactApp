@@ -31,13 +31,13 @@ function App() {
       </div>
 
       <div className="twopics">
-        <img src="./media/firstimg.png" alt="" />
-        <img src="./media/handsdown.png" alt="" />
+        <img src="/media/firstimg.png" alt="" />
+        <img src="/media/handsdown.png" alt="" />
 
       </div>
       <div className="headersInterface">
         <div className="header1">        <div className="vectorimg">
-          <img src="./media/vector1.png" alt="" />
+          <img src="/media/vector1.png" alt="" />
           <p>Header</p>
         </div>
           <div className="texts">
@@ -45,10 +45,10 @@ function App() {
           </div>
           <div className="buttonGreater">
             <p>Button</p>
-            <img src="./media/greater.png" alt="" />
+            <img src="/media/greater.png" alt="" />
           </div>
         </div><div className="header1">        <div className="vectorimg">
-          <img src="./media/vector1.png" alt="" />
+          <img src="/media/vector1.png" alt="" />
           <p>Header</p>
         </div>
           <div className="texts">
@@ -56,10 +56,10 @@ function App() {
           </div>
           <div className="buttonGreater">
             <p>Button</p>
-            <img src="./media/greater.png" alt="" />
+            <img src="/media/greater.png" alt="" />
           </div>
         </div><div className="header1">        <div className="vectorimg">
-          <img src="./media/vector1.png" alt="" />
+          <img src="/media/vector1.png" alt="" />
           <p>Header</p>
         </div>
           <div className="texts">
@@ -67,7 +67,7 @@ function App() {
           </div>
           <div className="buttonGreater">
             <p>Button</p>
-            <img src="./media/greater.png" alt="" />
+            <img src="/media/greater.png" alt="" />
           </div>
         </div>
       </div>
@@ -79,8 +79,8 @@ function App() {
           <p>Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background</p>
         </div>
         <div className="whypics">
-          <img src="./media/art1.png" alt="" />
-          <img src="./media/art2.png" alt="" />
+          <img src="/media/art1.png" alt="" />
+          <img src="/media/art2.png" alt="" />
         </div>
       </div>
 
@@ -88,7 +88,7 @@ function App() {
       <div className="reason">
         <div className="why">
           <p>Why you should choose us</p>
-          <img src="./media/flowerimg.png" alt="" />
+          <img src="/media/flowerimg.png" alt="" />
         </div>
         <div className="why">
           <p>Subheader</p>
@@ -101,14 +101,14 @@ function App() {
 
       <div className="gallery">
         <div className="handdownimg">
-          <img src="./media/handsdown.png" alt="" />
+          <img src="/media/handsdown.png" alt="" />
 
         </div>
         <div className="imgs4">
-          <img src="./media/cameraimg.png" alt="" />
-          <img src="./media/secondimg.png" alt="" />
-          <img src="./media/thirdimg.png" alt="" />
-          <img src="./media/fourthimg.png" alt="" />
+          <img src="/media/cameraimg.png" alt="" />
+          <img src="/media/secondimg.png" alt="" />
+          <img src="/media/thirdimg.png" alt="" />
+          <img src="/media/fourthimg.png" alt="" />
         </div>
       </div>
 
@@ -120,61 +120,61 @@ function App() {
 
       <div className="avatar-images">
         <div className="image-1">
-          <img src="./media/Avatar image1.png" alt="" />
+          <img src="/media/Avatar image1.png" alt="" />
           <p>Header</p>
           <p>Caption</p>
         </div>
 
         <div className="image-1">
-          <img src="./media/Avatar image2.png" alt="" />
+          <img src="/media/Avatar image2.png" alt="" />
           <p>Header</p>
           <p>Caption</p>
         </div>
 
         <div className="image-1">
-          <img src="./media/Avatar image3.png" alt="" />
+          <img src="/media/Avatar image3.png" alt="" />
           <p>Header</p>
           <p>Caption</p>
         </div>
 
         <div className="image-1">
-          <img src="./media/Avatar image4.png" alt="" />
+          <img src="/media/Avatar image4.png" alt="" />
           <p>Header</p>
           <p>Caption</p>
         </div>
 
         <div className="image-1">
-          <img src="./media/Avatar image5.png" alt="" />
+          <img src="/media/Avatar image5.png" alt="" />
           <p>Header</p>
           <p>Caption</p>
         </div>
 
         <div className="image-1">
-          <img src="./media/Avatar image6.png" alt="" />
+          <img src="/media/Avatar image6.png" alt="" />
           <p>Header</p>
           <p>Caption</p>
         </div>
 
         <div className="image-1">
-          <img src="./media/Avatar image7.png" alt="" />
+          <img src="/media/Avatar image7.png" alt="" />
           <p>Header</p>
           <p>Caption</p>
         </div>
 
         <div className="image-1">
-          <img src="./media/Avatar image8.png" alt="" />
+          <img src="/media/Avatar image8.png" alt="" />
           <p>Header</p>
           <p>Caption</p>
         </div>
 
         <div className="image-1">
-          <img src="./media/Avatar image9.png" alt="" />
+          <img src="/media/Avatar image9.png" alt="" />
           <p>Header</p>
           <p>Caption</p>
         </div>
 
         <div className="image-1">
-          <img src="./media/Avatar image10.png" alt="" />
+          <img src="/media/Avatar image10.png" alt="" />
           <p>Header</p>
           <p>Caption</p>
         </div>
@@ -183,7 +183,7 @@ function App() {
 
       <div className="phone-interface">
         <div className="phone-interfaceimg">
-          <img src="./media/phone-interface.png" alt="" />
+          <img src="/media/phone-interface.png" alt="" />
         </div>
         <div className="contacts">
           <div className="contactheader">
@@ -229,13 +229,13 @@ function App() {
 
           <button className='submitbutton'>
             <p>Submit</p>
-            <img src="./media/submitvector.png" alt="" />
+            <img src="/media/submitvector.png" alt="" />
           </button>
 
           <div className="logos">
             <p>Ai</p>
-            <img src="./media/googlevector.png" alt="" />
-            <img src="./media/playvector.png" alt="" />
+            <img src="/media/googlevector.png" alt="" />
+            <img src="/media/playvector.png" alt="" />
           </div>
         </div>
       </div>
@@ -266,19 +266,6 @@ function App() {
 
 
       </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     </div>
