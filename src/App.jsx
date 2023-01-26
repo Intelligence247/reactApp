@@ -1,6 +1,9 @@
 // import logo from './logo.svg';
 
 import './App.css';
+import Antdesign from './Components/Antdesign';
+import Cinputs from './Components/Cinputs';
+import Headcap from './Components/Headcap';
 function App() {
   return (
     <div className="body">
@@ -36,40 +39,9 @@ function App() {
 
       </div>
       <div className="headersInterface">
-        <div className="header1">        <div className="vectorimg">
-          <img src="/media/vector1.png" alt="" />
-          <p>Header</p>
-        </div>
-          <div className="texts">
-            Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background
-          </div>
-          <div className="buttonGreater">
-            <p>Button</p>
-            <img src="/media/greater.png" alt="" />
-          </div>
-        </div><div className="header1">        <div className="vectorimg">
-          <img src="/media/vector1.png" alt="" />
-          <p>Header</p>
-        </div>
-          <div className="texts">
-            Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background
-          </div>
-          <div className="buttonGreater">
-            <p>Button</p>
-            <img src="/media/greater.png" alt="" />
-          </div>
-        </div><div className="header1">        <div className="vectorimg">
-          <img src="/media/vector1.png" alt="" />
-          <p>Header</p>
-        </div>
-          <div className="texts">
-            Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background
-          </div>
-          <div className="buttonGreater">
-            <p>Button</p>
-            <img src="/media/greater.png" alt="" />
-          </div>
-        </div>
+        <Antdesign />
+        <Antdesign />
+        <Antdesign />
       </div>
 
       <div className="reason">
@@ -119,66 +91,16 @@ function App() {
       </div>
 
       <div className="avatar-images">
-        <div className="image-1">
-          <img src="/media/Avatar image1.png" alt="" />
-          <p>Header</p>
-          <p>Caption</p>
-        </div>
-
-        <div className="image-1">
-          <img src="/media/Avatar image2.png" alt="" />
-          <p>Header</p>
-          <p>Caption</p>
-        </div>
-
-        <div className="image-1">
-          <img src="/media/Avatar image3.png" alt="" />
-          <p>Header</p>
-          <p>Caption</p>
-        </div>
-
-        <div className="image-1">
-          <img src="/media/Avatar image4.png" alt="" />
-          <p>Header</p>
-          <p>Caption</p>
-        </div>
-
-        <div className="image-1">
-          <img src="/media/Avatar image5.png" alt="" />
-          <p>Header</p>
-          <p>Caption</p>
-        </div>
-
-        <div className="image-1">
-          <img src="/media/Avatar image6.png" alt="" />
-          <p>Header</p>
-          <p>Caption</p>
-        </div>
-
-        <div className="image-1">
-          <img src="/media/Avatar image7.png" alt="" />
-          <p>Header</p>
-          <p>Caption</p>
-        </div>
-
-        <div className="image-1">
-          <img src="/media/Avatar image8.png" alt="" />
-          <p>Header</p>
-          <p>Caption</p>
-        </div>
-
-        <div className="image-1">
-          <img src="/media/Avatar image9.png" alt="" />
-          <p>Header</p>
-          <p>Caption</p>
-        </div>
-
-        <div className="image-1">
-          <img src="/media/Avatar image10.png" alt="" />
-          <p>Header</p>
-          <p>Caption</p>
-        </div>
-
+        <Headcap img="/media/Avatar image1.png" />
+        <Headcap img="/media/Avatar image2.png" />
+        <Headcap img="/media/Avatar image3.png" />
+        <Headcap img="/media/Avatar image4.png" />
+        <Headcap img="/media/Avatar image5.png" />
+        <Headcap img="/media/Avatar image6.png" />
+        <Headcap img="/media/Avatar image7.png" />
+        <Headcap img="/media/Avatar image8.png" />
+        <Headcap img="/media/Avatar image9.png" />
+        <Headcap img="/media/Avatar image10.png" />
       </div>
 
       <div className="phone-interface">
@@ -191,33 +113,16 @@ function App() {
             <p>Our lovely team would love to hear from you</p></div>
 
           <div className="inputs">
-            <div className="input1">
-              <label htmlFor="Firstname">
-                First name
-              </label>
-              <input type="text" placeholder='First name' />
-            </div>
+            <Cinputs label="First name" />
+            <Cinputs label="Last name" />
+            <Cinputs label="Email" />
+            <Cinputs label="Phone number" />
 
-            <div className="input1">
-              <label htmlFor="Last name">
-                Last name
-              </label>
-              <input type="text" placeholder='Last name' />
-            </div>
 
-            <div className="input1">
-              <label htmlFor="Email">
-                Email
-              </label>
-              <input type="text" placeholder='Email' />
-            </div>
 
-            <div className="input1">
-              <label htmlFor="Phone number">
-                Phone number
-              </label>
-              <input type="text" placeholder='Phone number' />
-            </div>
+
+
+
 
           </div>
           <div className="input2">
