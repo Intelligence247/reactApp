@@ -118,18 +118,10 @@ function App() {
             <Cinputs label="Email" />
             <Cinputs label="Phone number" />
 
-
-
-
-
-
-
           </div>
           <div className="input2">
-            <label htmlFor="Issues">
-              Issues
-            </label>
-            <input type="text" placeholder='Issues' />
+            <Cinputs label="Issues" />
+
           </div>
 
           <button className='submitbutton'>
